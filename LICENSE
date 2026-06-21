@@ -1,0 +1,26 @@
+# Dual License: GNU AGPLv3 / Commercial License
+
+Copyright (c) 2026 AllinSim
+
+This project is licensed under a dual licensing model. You may choose either license below for your use:
+
+## Option 1: Open Source License — GNU AGPLv3
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License.
+
+Full text: ./LICENSE-AGPL3
+
+Key obligations under AGPLv3:
+1. If you modify this software and deploy it as a public web/SaaS service to third parties, you must make your modified complete source code publicly available.
+2. You must retain all original copyright and license notices.
+
+## Option 2: Commercial Closed-Source License
+If you need to:
+- Modify and deploy internally without open-sourcing modifications
+- Embed this simulation engine into proprietary closed commercial products
+- Rebrand, white-label, resell this online simulation platform for profit
+- Avoid AGPLv3 network copyleft obligations
+
+You must purchase a commercial license from the copyright holder.
+Inquiry, quotation and contract contact: allinsim@163.com / 623127794@qq.com
