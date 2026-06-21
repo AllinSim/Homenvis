@@ -1,0 +1,12 @@
+# Contributing Guide
+
+## License & Copyright
+All code contributions to this project are subject to a Contributor License Agreement (CLA).
+By submitting a Pull Request, you agree to sign the CLA located at `docs/legal/CLA.md`.
+
+What the CLA means:
+1. You confirm your contribution is original, no copyright infringement.
+2. You grant the project owner perpetual, worldwide, non-exclusive, transferable rights to use, modify, distribute, sublicense your code, including both open-source AGPLv3 use and commercial licensing sales.
+3. You still retain personal copyright of your own contributed code.
+
+Pull requests will not be merged until CLA signature is completed.
