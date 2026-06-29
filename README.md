@@ -70,7 +70,7 @@
 ### 安装与运行
 
 ```bash
-git clone <你的仓库地址>
+git clone https://github.com/AllinSim/Homenvis
 cd Homenvis
 npm install
 npm run dev
