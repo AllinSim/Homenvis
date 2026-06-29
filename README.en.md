@@ -70,7 +70,7 @@ Correspondence via [mail](mailto:623127794@qq.com) (Haocheng Wen).
 ### Install & Run
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/AllinSim/Homenvis
 cd Homenvis
 npm install
 npm run dev
