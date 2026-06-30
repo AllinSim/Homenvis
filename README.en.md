@@ -13,6 +13,8 @@ Author:
 
 Correspondence via [mail](mailto:623127794@qq.com) (Haocheng Wen).
 
+<img src="/docs/images/main_page_en.png" alt="main page" height="500"/>
+
 ---
 
 ## ✨ Key Features
