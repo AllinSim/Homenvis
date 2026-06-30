@@ -75,12 +75,38 @@
 
 > ⚠️ WebGPU 在非 `localhost` 页面下**要求 HTTPS** 才会启用。本地开发时 `next dev` 默认走 `localhost`，可直接用 GPU；若用 IP 访问需配 HTTPS（见 `dev` 脚本里的 `--experimental-https`）。
 
-### 安装与运行
+### 下载与安装
 
 ```bash
 git clone https://github.com/AllinSim/Homenvis
 cd Homenvis
 npm install
+```
+
+### 生成自签名证书（HTTPS 开发用）
+
+运行 `npm run dev`（HTTPS 模式）时需要 `cert.pem` 和 `key.pem` 两个证书文件。**这两个文件不包含在仓库中**，请在项目根目录执行以下命令自行生成：
+
+```bash
+# 生成有效期为 365 天的自签名证书
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/CN=localhost"
+```
+
+生成后项目目录结构应包含：
+```
+Homenvis/
+├── cert.pem           # 自签名证书（需自行生成，已加入 .gitignore）
+├── key.pem            # 私钥（需自行生成，已加入 .gitignore）
+└── ...
+```
+
+> 自签名证书在浏览器中会显示"不安全"警告，这是正常的，点击"高级"→"继续前往"即可。生产部署请使用 Let's Encrypt 等正规证书。
+
+### 测试运行
+
+以开发模式运行：
+
+```bash
 npm run dev
 ```
 
