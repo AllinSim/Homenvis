@@ -76,12 +76,39 @@ Online access URL: https://homenvis.allinsim.com
 
 > ⚠️ WebGPU requires **HTTPS** on non-`localhost` pages to be enabled. During local development `next dev` runs on `localhost` by default, so GPU works directly; to access via an IP on the LAN, configure HTTPS (see the `--experimental-https` in the `dev` script).
 
-### Install & Run
+### Download & Install
 
 ```bash
 git clone https://github.com/AllinSim/Homenvis
 cd Homenvis
 npm install
+```
+
+### Generate Self-Signed Certificates (for HTTPS development)
+
+Running `npm run dev` (HTTPS mode) requires the `cert.pem` and `key.pem` files. **These files are not shipped with the repository.** Generate them in the project root with the following command:
+
+```bash
+# Generate a self-signed certificate valid for 365 days
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/CN=localhost"
+```
+
+After generation, your project directory should look like:
+
+```
+Homenvis/
+├── cert.pem           # Self-signed certificate (must generate manually, already in .gitignore)
+├── key.pem            # Private key (must generate manually, already in .gitignore)
+└── ...
+```
+
+> The browser will show a "Not Secure" warning for self-signed certificates — this is normal. Click "Advanced" → "Proceed" to continue. For production, use a proper certificate from Let's Encrypt or another CA.
+
+### Test run
+
+Run the project in a dev mode:
+
+```bash
 npm run dev
 ```
 
