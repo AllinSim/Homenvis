@@ -13,6 +13,8 @@
 
 有任何疑问可[邮件联系](mailto:623127794@qq.com) (Haocheng Wen).
 
+<img src="/docs/images/main_page_zh.png" alt="main page" height="500"/>
+
 ---
 
 ## ✨ 核心特性
