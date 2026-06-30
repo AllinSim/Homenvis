@@ -143,6 +143,8 @@ npm run start         # http://localhost:3004
 
 > Don't want to start from scratch? Load a preset scenario from "Sample Rooms" with one click and simulate right away.
 
+<img src="/docs/images/simple_demo.gif" alt="simple demo" height="500"/>
+
 ---
 
 ## 📁 Project Structure
