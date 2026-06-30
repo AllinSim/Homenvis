@@ -2,6 +2,10 @@
 
 [English](./README.en.md) | **中文**
 
+<div align="center">
+  <img src="/docs/images/project_logo.png" alt="project logo" height="200"/>
+</div>
+
 本项目是一个基于格子玻尔兹曼方法（Lattice Boltzmann Method）的室内流动仿真系统，支持通过 WebGPU / CPU 进行三维流体与温度场计算，并提供实时三维可视化。无需安装任何软件，打开网页即可：搭房间 → 摆家具/电器 → 设边界条件 → 一键仿真 → 三维可视化查看结果。全部计算在浏览器本地完成（WebGPU 优先，不支持时自动回退 CPU）。
 
 **这是一款探索先行的实验Demo，旨在挖掘CFD走进日常场景的落地路径与无限潜能。我们满怀信心，未来CFD技术终将打破专业壁垒，融入衣食住行的每一处细节，成为日常生活不可或缺的一部分。**
