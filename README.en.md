@@ -2,6 +2,10 @@
 
 **English** | [中文](./README.md)
 
+<div align="center">
+  <img src="/docs/images/project_logo.png" alt="project logo" height="200"/>
+</div>
+
 This is an indoor flow simulation system based on the Lattice Boltzmann Method (LBM), supporting 3D fluid and temperature field computation via WebGPU / CPU with real-time 3D visualization. No software to install. Open the page and you can: build a room → place furniture/appliances → set boundary conditions → run the simulation → visualize results in 3D. All computation runs locally in the browser (WebGPU first, automatic CPU fallback).
 
 **This is an exploratory experimental demo designed to identify practical implementation pathways and unlock the full potential of CFD for everyday scenarios. We are fully confident that CFD technology will eventually break down professional barriers, permeate every aspect of people’s basic needs including clothing, food, housing and transportation, and become an indispensable part of daily life.**
