@@ -6,7 +6,7 @@
 
 **这是一款探索先行的实验Demo，旨在挖掘CFD走进日常场景的落地路径与无限潜能。我们满怀信心，未来CFD技术终将打破专业壁垒，融入衣食住行的每一处细节，成为日常生活不可或缺的一部分。**
 
-**All in simulation, all in future.**
+**尽在仿真，尽向未来。All in simulation, all in future.**
 
 作者：
 - [Haocheng Wen](https://github.com/thuwen)
