@@ -141,6 +141,8 @@ npm run start         # http://localhost:3004
 
 > 不想从零搭？点“样板间”一键载入预设场景，直接仿真体验。
 
+<img src="/docs/images/simple_demo.gif" alt="simple demo" height="500"/>
+
 ---
 
 ## 📁 项目结构
