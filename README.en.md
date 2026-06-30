@@ -17,6 +17,9 @@ Author:
 
 Correspondence via [mail](mailto:623127794@qq.com) (Haocheng Wen).
 
+Online access URL: https://homenvis.allinsim.com
+(HTTPS connection is mandatory; WebGPU will not function without it)
+
 <img src="/docs/images/main_page_en.png" alt="main page" height="500"/>
 
 ---
