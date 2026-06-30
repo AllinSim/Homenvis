@@ -141,7 +141,7 @@ npm run start         # http://localhost:3004
 4. **View results**: in the 3D view, use "Display Controls" to switch between velocity / temperature / pressure fields, adjust volume thresholds, opacity and slice positions, and observe the flow and temperature distribution in 3D.
 5. **Save / Share**: export the layout and simulation results as JSON for later import and reproduction.
 
-> Don't want to start from scratch? Load a preset scenario from "Sample Rooms" with one click and simulate right away.
+> Don't want to start from scratch? Load a preset scenario from "Samples" with one click and simulate right away.
 
 <img src="/docs/images/simple_demo.gif" alt="simple demo" height="500"/>
 
