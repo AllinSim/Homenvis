@@ -17,6 +17,8 @@
 
 有任何疑问可[邮件联系](mailto:623127794@qq.com) (Haocheng Wen).
 
+在线使用网址：https://homenvis.allinsim.com (必须启用https，否则无法使用WebGPU)
+
 <img src="/docs/images/main_page_zh.png" alt="main page" height="500"/>
 
 ---
