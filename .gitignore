@@ -43,3 +43,6 @@ yarn-error.log*
 
 # ── 数据库 ───────────────────────────────────────
 data/app.db
+*.db
+*.db-wal
+*.db-shm
